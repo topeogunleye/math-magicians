@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# math-magicians
+> A Single Page App (SPA) that allows users to Make simple calculations and read a random math-related quote.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+![screenshot](./sec.png)
 
-In the project directory, you can run:
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+- Make simple calculations. 
+- Read a random math-related quote.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React,
+- Stylelint, Web Hint, Lighthouse
+- Eslint, Prettier
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+[Live Demo Link]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+To get a local copy up and running, follow the steps in Setup below.
 
-### `npm run build`
+### Prerequisites
+Basic knowledge of HTML, CSS, JavaScript, and React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Download the ZIP from this location](https://github.com/topeogunleye/math-magicians/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/topeogunleye/math-magicians.git
+```
 
-### `npm run eject`
+- Once the files are on your machine, open the _todo-list_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠 Installation & Set Up
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Install Node Modules
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```sh
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Start the development server
 
-## Learn More
+   ```sh
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Building and Running for Production
 
-### Code Splitting
+1. Generate a full static production build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```sh
+   npm run build
+   ```
+4. ## 🚀 Testing Application
 
-### Analyzing the Bundle Size
+1. Test the items Counter and Comments Counter function
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```sh
+   npm test
+### Install
 
-### Making a Progressive Web App
+The following tools help make easier to work with sample code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [NVM](https://github.com/nvm-sh/nvm)
 
-### Advanced Configuration
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👤 **Author1**
 
-### Deployment
+- GitHub: [@githubhandle](https://github.com/topeogunleye)
+- Twitter: [@twitterhandle](https://twitter.com/topeogunleye21)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ogunleye)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
 
-### `npm run build` fails to minify
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the [issues page](https://github.com/topeogunleye/recipe-app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
