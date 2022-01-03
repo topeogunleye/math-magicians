@@ -12,10 +12,20 @@
 
 ## Built With
 
-- React,
-- Stylelint, Web Hint, Lighthouse
-- Eslint, Prettier
+- Major Languages: JavaScript.
+- Libraries: React,
+- Technologies used: 
 
+``` bash
+- create-react-app tool
+- Git version control
+- ESLint code linting
+- StyleLint code linting
+- Prettier code formatting
+- Babel transpiling
+- Webpack bundling
+- netlify deployment
+```
 ## Live Demo
 
 [Live Demo Link]()
