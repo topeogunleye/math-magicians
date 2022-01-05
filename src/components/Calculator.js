@@ -1,8 +1,9 @@
 import React from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
-('../logic/calculate');
 import operate from '../logic/operate';
+
+('../logic/calculate');
 ('../logic/operate');
 class Calculator extends React.Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class Calculator extends React.Component {
   }
 
   render() {
-    const {next, total, operation} = this.state;
+    const { next, total } = this.state;
 
     return (
       <div className="calculator-grid">
