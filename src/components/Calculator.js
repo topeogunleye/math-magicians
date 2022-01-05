@@ -2,19 +2,18 @@ import { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-const Calculator = () => {
+function Calculator() {
+  const [calculator, setCalculator] = useState(0);
 
-  const [calculator, setCalculator]  = useState(0)
-
-  const handleClick = (event) =>{
+  const handleClick = (event) => {
     const buttonName = event.target.textContent;
     const calculation = calculate(calculator, buttonName);
     setCalculator(calculation);
-  }
+  };
 
   const { next, total } = calculator;
 
-  return  (
+  return (
     <div className="calculator-grid">
       <div className="output">
         <div data-previous-operand className="previous-operand" />
