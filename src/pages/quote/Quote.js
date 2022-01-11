@@ -5,7 +5,7 @@ function Quote() {
   return (
     <div className="quote-container">
       “mathematics is not about numbers, equations, computations or algorithms;
-      it’s about understanding.”
+      it's about understanding.”
     </div>
   );
 }
