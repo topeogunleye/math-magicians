@@ -1,10 +1,11 @@
-import Calculator from './components/Calculator';
+import { Fragment } from 'react';
+import Home from './pages/home/Home.js';
 
 function App() {
   return (
-    <div className="">
-      <Calculator />
-    </div>
+    <Fragment>
+      <Home />
+    </Fragment>
   );
 }
 
