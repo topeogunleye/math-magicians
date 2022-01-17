@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "big.js": "^6.1.1",
     "react": "^17.0.2",
@@ -19,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css"
-},
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -39,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^12.1.2",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0",
