@@ -4,8 +4,8 @@ import './Quote.css';
 function Quote() {
   return (
     <div className="quote-container">
-      “mathematics is not about numbers, equations, computations or algorithms;
-      it's about understanding.”
+      “mathematics is not about numbers, equations, computations or algorithms
+      its about understanding.”
     </div>
   );
 }
