@@ -6,7 +6,7 @@ import Header from './Header';
 
 it('renders without crashing', () => {
   render(<Header />);
-  expect
+  expect;
 });
 
 it('should display the correct title', () => {

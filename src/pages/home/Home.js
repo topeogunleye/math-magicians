@@ -4,7 +4,7 @@ import './Home.css';
 function Home() {
   return (
     <div className="home-container grid items-center">
-      <h1 className='text-gray-900 text-2xl font-extrabold'>Welcome to our page</h1>
+      <h1 className="text-gray-900 text-2xl font-extrabold">Welcome to our page</h1>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolores

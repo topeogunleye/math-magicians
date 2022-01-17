@@ -1,4 +1,4 @@
-//Unit Test for calculate.js
+// Unit Test for calculate.js
 import { calculate } from './calculate';
 
 test('calculate', () => {
@@ -15,17 +15,16 @@ test('calculate with invalid operation', () => {
   expect(() => {
     calculate(1, 2, '*');
   }).toThrowError(/Unknown operation/);
-} );
+});
 
 test('calculate with invalid number', () => {
   expect(() => {
     calculate(1, 'a', '+');
   }).toThrowError(/Invalid number/);
-} );
+});
 
-test ('calculate with invalid number and operation', () => {
+test('calculate with invalid number and operation', () => {
   expect(() => {
     calculate('a', 'b', 'c');
   }).toThrowError(/Invalid number/);
-} );
-
+});

@@ -1,4 +1,4 @@
-//Unit Test for operator.js
+// Unit Test for operator.js
 import { operate } from './operator';
 
 test('operate', () => {
