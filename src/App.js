@@ -3,7 +3,6 @@ import Header from './components/header/Header';
 import CalculatorPage from './pages/calculator/CalculatorPage';
 import Home from './pages/home/Home';
 import Quote from './pages/quote/Quote';
-import './styles/output.css';
 
 function App() {
   return (

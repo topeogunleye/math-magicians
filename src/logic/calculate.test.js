@@ -1,5 +1,5 @@
 // Unit Test for calculate.js
-import { calculate } from './calculate';
+import calculate from './calculate';
 
 test('calculate', () => {
   expect(calculate(1, 2, '+')).toBe('3');

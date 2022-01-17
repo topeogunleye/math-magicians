@@ -1,5 +1,5 @@
 // Unit Test for operator.js
-import { operate } from './operator';
+import operate from './operate';
 
 test('operate', () => {
   expect(operate(1, 2, '+')).toBe('3');
