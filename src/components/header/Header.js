@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="divide-y divide-stone-200">
       <div className="header-container py-2 px-8 md:max-w-7xl mx-auto md:flex items-center justify-between space-x-4 space-y-4 md:space-y-0">
-        <div className="">
+        <div className="text-2xl font-extrabold">
           <Link to="/">
             <p>Math Magicians</p>
           </Link>
