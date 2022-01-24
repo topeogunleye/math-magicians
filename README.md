@@ -28,7 +28,7 @@
 ```
 ## Live Demo
 
-[Live Demo Link]()
+[Netlify](https://math-magicians-netlify.netlify.app/)
 
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
