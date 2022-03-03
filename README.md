@@ -28,7 +28,7 @@
 ```
 ## Live Demo
 
-[Netlify](https://math-magicians-netlify.netlify.app/)
+[Live Demo](https://math-magicians-netlify.netlify.app/)
 
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
@@ -86,7 +86,7 @@ The following tools help make easier to work with sample code.
 
 ## Authors
 
-👤 **Author1**
+👤 **Temitope Ogunleye**
 
 - GitHub: [@githubhandle](https://github.com/topeogunleye)
 - Twitter: [@twitterhandle](https://twitter.com/topeogunleye21)
@@ -96,7 +96,7 @@ The following tools help make easier to work with sample code.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/topeogunleye/recipe-app/issues).
+Feel free to check the [issues page](https://github.com/topeogunleye/math-magicians/issues).
 
 ## Show your support
 
